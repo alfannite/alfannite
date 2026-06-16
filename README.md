@@ -23,7 +23,3 @@
   <img src="https://img.shields.io/badge/AMD-2E2A25?style=for-the-badge&logo=amd&logoColor=ED1C24" alt="AMD" />
   <img src="https://img.shields.io/badge/Dell-006BB6?style=for-the-badge&logo=dell&logoColor=white" alt="Dell" />
 </p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=transparent&text=01001110%2001001111%2001000011%2001010011%2001011001%2001010011&animation=twinkling&fontColor=ffffff&fontSize=12&fontAlignY=50&theme=dark&opacity=0.35" alt="Binary Divider" />
-</p>
