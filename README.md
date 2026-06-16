@@ -6,12 +6,8 @@
   <img src="img/bannergif.gif" alt="Aesthetic Oprek Wallpaper" width="100%" style="max-width: 750px; border-radius: 8px;" />
 </p>
 
-<p align="center">
-  <marquee width="80%" scrollamount="4" behavior="scroll" direction="left">
-    <code style="font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 16px; font-weight: bold;">
-      ★ NOC | Tech Enthusiast | Networks ★
-    </code>
-  </marquee>
+<p align="center" style="margin-top: 10px;">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E2%98%85+NOC+%7C+Tech Enthusiast+%7C+Networks+★;fanops%40macbook-pro+~+%25+Jangan Lupa Sholat...;fanops%40macbook-pro+~+%25+200+%5BOK%5D;fanops%40macbook-pro+~+%25+Selalu Bersyukur..." alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -28,8 +24,6 @@
   <img src="https://img.shields.io/badge/Dell-006BB6?style=for-the-badge&logo=dell&logoColor=white" alt="Dell" />
 </p>
 
-<marquee width="85%" scrollamount="5" behavior="scroll" direction="right" style="opacity: 0.35;">
-    <code style="font-family: 'SF Mono', Consolas, monospace; font-size: 11px; color: #c9184a; letter-spacing: 2px;">
-      01000101 01010011 01010100 01000001 01000010 01010100 01001001 01010011 01001000 01000101 01000100 00100000 01001100 01001001 01001110 01010101 01011000 01011111
-    </code>
-  </marquee>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=transparent&text=01001110%2001001111%2001000011%2001010011%2001011001%2001010011&animation=twinkling&fontColor=ffffff&fontSize=12&fontAlignY=50&theme=dark&opacity=0.35" alt="Binary Divider" />
+</p>
