@@ -24,8 +24,6 @@
   <img src="https://img.shields.io/badge/Dell-006BB6?style=for-the-badge&logo=dell&logoColor=white" alt="Dell" />
 </p>
 
-<!-- Layer 1: Core Line -->
-<hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(240, 35, 32, 0.4), transparent); margin: 25px auto 3px auto; width: 90%;">
-
-<!-- Layer 2: Shadow/Secondary Layer -->
-<hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent); margin: 0 auto; width: 85%;">
+<p align="center" style="margin: 30px 0; font-family: 'SF Mono', Consolas, monospace; font-size: 13px; letter-spacing: -1px; line-height: 1;">
+  <code style="color: rgba(255,255,255,0.08);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.85);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.08);">██████████████</code>
+</p>
