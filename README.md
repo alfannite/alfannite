@@ -23,3 +23,9 @@
   <img src="https://img.shields.io/badge/AMD-2E2A25?style=for-the-badge&logo=amd&logoColor=ED1C24" alt="AMD" />
   <img src="https://img.shields.io/badge/Dell-006BB6?style=for-the-badge&logo=dell&logoColor=white" alt="Dell" />
 </p>
+
+<!-- Layer 1: Core Line -->
+<hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(240, 35, 32, 0.4), transparent); margin: 25px auto 3px auto; width: 90%;">
+
+<!-- Layer 2: Shadow/Secondary Layer -->
+<hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent); margin: 0 auto; width: 85%;">
