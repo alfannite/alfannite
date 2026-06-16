@@ -19,9 +19,7 @@
   <img src="https://img.shields.io/badge/MikroTik-222222?style=for-the-badge&logo=mikrotik&logoColor=EAEAEA" alt="MikroTik" />
   <img src="https://img.shields.io/badge/WireGuard-6E1624?style=for-the-badge&logo=wireguard&logoColor=E0D5D7" alt="WireGuard" />
   <img src="https://img.shields.io/badge/API-283130?style=for-the-badge&logo=insomnia&logoColor=5841D8" alt="API" />
-  <img src="https://img.shields.io/badge/Intel-005B94?style=for-the-badge&logo=intel&logoColor=white" alt="Intel" />
-  <img src="https://img.shields.io/badge/AMD-2E2A25?style=for-the-badge&logo=amd&logoColor=ED1C24" alt="AMD" />
-  <img src="https://img.shields.io/badge/Dell-006BB6?style=for-the-badge&logo=dell&logoColor=white" alt="Dell" />
+  <img src="https://img.shields.io/badge/Cisco-0B1B2B?style=for-the-badge&logo=cisco&logoColor=%2358A6FF&logoWidth=22" alt="Cisco" />
 </p>
 
 <p align="center" style="margin: 30px 0; font-family: 'SF Mono', Consolas, monospace; font-size: 13px; letter-spacing: -1px; line-height: 1;">
