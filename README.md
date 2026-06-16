@@ -7,7 +7,7 @@
 </p>
 
 <p align="center" style="margin-top: 10px;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E2%98%85+NOC+%7C+Tech Enthusiast+%7C+Networks+★;fanops%40macbook-pro+~+%25+Jangan Lupa Sholat...;fanops%40macbook-pro+~+%25+200+%5BOK%5D;fanops%40macbook-pro+~+%25+Selalu Bersyukur..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=%E2%98%85%20NOC%20%7C%20Tech%20Enthusiast%20%7C%20Networks%20%E2%98%85;fanops%40macbook-pro%20~%20%25%20Jangan%20Lupa%20Sholat...;fanops%40macbook-pro%20~%20%25%20200%20%5BOK%5D;fanops%40macbook-pro%20~%20%25%20Selalu%20Bersyukur..." alt="Typing SVG" />
 </p>
 
 <p align="center">
