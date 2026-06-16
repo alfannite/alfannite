@@ -24,6 +24,35 @@
   <img src="https://img.shields.io/badge/Dell-006BB6?style=for-the-badge&logo=dell&logoColor=white" alt="Dell" />
 </p>
 
+
+<p align="center" style="margin-top: 20px;">
+  <!-- GitHub -->
+  <a href="https://github.com/username_kamu" target="_blank">
+    <img src="https://img.shields.io/badge/-%20-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>&nbsp;&nbsp;
+  <!-- GitLab -->
+  <a href="https://gitlab.com/username_kamu" target="_blank">
+    <img src="https://img.shields.io/badge/-%20-orange?style=flat-square&logo=gitlab&logoColor=white&colorA=FC6D26&colorB=e24329" alt="GitLab" />
+  </a>&nbsp;&nbsp;
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/username_kamu" target="_blank">
+    <img src="https://img.shields.io/badge/-%20-blue?style=flat-square&logo=linkedin&logoColor=white&colorA=0A66C2&colorB=0077B5" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
+  <!-- X / Twitter -->
+  <a href="https://x.com/username_kamu" target="_blank">
+    <img src="https://img.shields.io/badge/-%20-000000?style=flat-square&logo=x&logoColor=white" alt="X.com" />
+  </a>&nbsp;&nbsp;
+  <!-- Instagram -->
+  <a href="https://instagram.com/username_kamu" target="_blank">
+    <img src="https://img.shields.io/badge/-%20-pink?style=flat-square&logo=instagram&logoColor=white&colorA=E4405F&colorB=833AB4" alt="Instagram" />
+  </a>&nbsp;&nbsp;
+  <!-- Telegram -->
+  <a href="https://t.me/username_kamu" target="_blank">
+    <img src="https://img.shields.io/badge/-%20-blue?style=flat-square&logo=telegram&logoColor=white&colorA=26A5E4&colorB=0088cc" alt="Telegram" />
+  </a>
+</p>
+
+
 <p align="center" style="margin: 30px 0; font-family: 'SF Mono', Consolas, monospace; font-size: 13px; letter-spacing: -1px; line-height: 1;">
   <code style="color: rgba(255,255,255,0.08);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.85);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.08);">██████████████</code>
 </p>
