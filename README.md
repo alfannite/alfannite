@@ -30,19 +30,19 @@
 
 <p align="center" style="margin-top: 25px;">
   <!-- GitHub -->
-  <a href="https://github.com/username_kamu" target="_blank">
+  <a href="https://github.com/alfannite" target="_blank">
     <img src="https://img.shields.io/badge/%20-181717?style=for-the-badge&logo=github&logoColor=white&logoWidth=20" alt="GitHub" />
   </a>&nbsp;&nbsp;
   <!-- X / Twitter -->
-  <a href="https://x.com/username_kamu" target="_blank">
+  <a href="https://x.com/fannite_ops" target="_blank">
     <img src="https://img.shields.io/badge/%20-000000?style=for-the-badge&logo=x&logoColor=white&logoWidth=16" alt="X.com" />
   </a>&nbsp;&nbsp;
   <!-- Instagram -->
-  <a href="https://instagram.com/username_kamu" target="_blank">
+  <a href="https://www.instagram.com/alfan.niteops/" target="_blank">
     <img src="https://img.shields.io/badge/%20-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=20" alt="Instagram" />
   </a>&nbsp;&nbsp;
   <!-- Telegram -->
-  <a href="https://t.me/username_kamu" target="_blank">
+  <a href="https://t.me/fannite_ops/" target="_blank">
     <img src="https://img.shields.io/badge/%20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&logoWidth=20" alt="Telegram" />
   </a>
 </p>
