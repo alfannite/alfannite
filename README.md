@@ -28,29 +28,21 @@
   <code style="color: rgba(255,255,255,0.08);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.85);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.08);">██████████████</code>
 </p>
 
-<p align="center" style="margin-top: 20px;">
+<p align="center" style="margin-top: 25px;">
   <!-- GitHub -->
   <a href="https://github.com/username_kamu" target="_blank">
-    <img src="https://img.shields.io/badge/-%20-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>&nbsp;&nbsp;
-  <!-- GitLab -->
-  <a href="https://gitlab.com/username_kamu" target="_blank">
-    <img src="https://img.shields.io/badge/-%20-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab" />
-  </a>&nbsp;&nbsp;
-  <!-- LinkedIn -->
-  <a href="https://linkedin.com/in/username_kamu" target="_blank">
-    <img src="https://img.shields.io/badge/-%20-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/%20-181717?style=for-the-badge&logo=github&logoColor=white&logoWidth=20" alt="GitHub" />
   </a>&nbsp;&nbsp;
   <!-- X / Twitter -->
   <a href="https://x.com/username_kamu" target="_blank">
-    <img src="https://img.shields.io/badge/-%20-000000?style=flat-square&logo=x&logoColor=white" alt="X.com" />
+    <img src="https://img.shields.io/badge/%20-000000?style=for-the-badge&logo=x&logoColor=white&logoWidth=16" alt="X.com" />
   </a>&nbsp;&nbsp;
   <!-- Instagram -->
   <a href="https://instagram.com/username_kamu" target="_blank">
-    <img src="https://img.shields.io/badge/-%20-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/%20-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=20" alt="Instagram" />
   </a>&nbsp;&nbsp;
   <!-- Telegram -->
   <a href="https://t.me/username_kamu" target="_blank">
-    <img src="https://img.shields.io/badge/-%20-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
+    <img src="https://img.shields.io/badge/%20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&logoWidth=20" alt="Telegram" />
   </a>
 </p>
