@@ -11,36 +11,28 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Linux-1A1A1A?style=for-the-badge&logo=linux&logoColor=F0F0F0" alt="Linux" />
-  <img src="https://img.shields.io/badge/Shell-202426?style=for-the-badge&logo=gnu-bash&logoColor=4EAA25" alt="Shell" />
-  <img src="https://img.shields.io/badge/PVE-D85600?style=for-the-badge&logo=proxmox&logoColor=white" alt="PVE" />
-  <img src="https://img.shields.io/badge/Docker-1D63ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Node-2B5F3A?style=for-the-badge&logo=nodedotjs&logoColor=66CC7A" alt="Node" />
-  <img src="https://img.shields.io/badge/MikroTik-222222?style=for-the-badge&logo=mikrotik&logoColor=EAEAEA" alt="MikroTik" />
-  <img src="https://img.shields.io/badge/WireGuard-6E1624?style=for-the-badge&logo=wireguard&logoColor=E0D5D7" alt="WireGuard" />
-  <img src="https://img.shields.io/badge/API-283130?style=for-the-badge&logo=insomnia&logoColor=5841D8" alt="API" />
-  <img src="https://img.shields.io/badge/Cisco-0B1B2B?style=for-the-badge&logo=cisco&logoColor=%2358A6FF&logoWidth=22" alt="Cisco" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,nodejs,js&theme=dark" />
+  <img src="https://cdn.simpleicons.org/proxmox" height="48"/>
+  <img src="https://cdn.simpleicons.org/mikrotik" height="48"/>
+  <img src="https://cdn.simpleicons.org/cisco" height="48"/>
+  <img src="https://cdn.simpleicons.org/wireguard" height="48"/>
 </p>
 
-<p align="center" style="margin: 30px 0; font-family: 'SF Mono', Consolas, monospace; font-size: 13px; letter-spacing: -1px; line-height: 1;">
-  <code style="color: rgba(255,255,255,0.08);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.85);">██████████████</code><code style="color: rgba(255,255,255,0.45);">██████████████</code><code style="color: rgba(255,255,255,0.2);">██████████████</code><code style="color: rgba(255,255,255,0.08);">██████████████</code>
-</p>
 
-<p align="center" style="margin-top: 25px;">
-  <!-- GitHub -->
-  <a href="https://github.com/alfannite" target="_blank">
-    <img src="https://img.shields.io/badge/%20-181717?style=for-the-badge&logo=github&logoColor=white&logoWidth=20" alt="GitHub" />
-  </a>&nbsp;&nbsp;
-  <!-- X / Twitter -->
-  <a href="https://x.com/fannite_ops" target="_blank">
-    <img src="https://img.shields.io/badge/%20-000000?style=for-the-badge&logo=x&logoColor=white&logoWidth=16" alt="X.com" />
-  </a>&nbsp;&nbsp;
-  <!-- Instagram -->
-  <a href="https://www.instagram.com/alfan.niteops/" target="_blank">
-    <img src="https://img.shields.io/badge/%20-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=20" alt="Instagram" />
-  </a>&nbsp;&nbsp;
-  <!-- Telegram -->
-  <a href="https://t.me/fannite_ops/" target="_blank">
-    <img src="https://img.shields.io/badge/%20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&logoWidth=20" alt="Telegram" />
+<p align="center">
+  <a href="https://github.com/alfannite">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="https://x.com/fannite_ops">
+    <img src="https://img.shields.io/badge/X.com-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+
+  <a href="https://instagram.com/alfan.niteops">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+
+  <a href="https://t.me/fannite_ops">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
 </p>
