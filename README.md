@@ -12,10 +12,10 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,bash,nodejs,js&theme=dark" />
-  <img src="https://cdn.simpleicons.org/proxmox" height="48"/>
-  <img src="https://cdn.simpleicons.org/mikrotik" height="48"/>
-  <img src="https://cdn.simpleicons.org/cisco" height="48"/>
-  <img src="https://cdn.simpleicons.org/wireguard" height="48"/>
+  <img src="https://cdn.simpleicons.org/proxmox" height="38"/>
+  <img src="https://cdn.simpleicons.org/mikrotik" height="38"/>
+  <img src="https://cdn.simpleicons.org/cisco" height="38"/>
+  <img src="https://cdn.simpleicons.org/wireguard" height="38"/>
 </p>
 
 
