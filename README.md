@@ -28,7 +28,15 @@
 </p>
 
 <p align="center">
+──────────────────────── ✦ ────────────────────────
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</p>
+
+<p align="center">
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </p>
 
 <p align="center">
