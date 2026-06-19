@@ -36,10 +36,9 @@
 </picture>
 
 <p align="center">
-  <span style="color: #c0b7b1;">─── 시작 ▫ 하루 ▫ 생각 ▫ 기록 ▫ 노력 ▫ 빛 ▫ 착한 ▫ 
-책상 ▫ 
-커피 ▫ 안심 ───</span>
+──시작────하루────착한────안심── ✦ ──한빛────록루────착한────빛심──
 </p>
+
 
 <p align="center">
   <a href="https://github.com/alfannite">
