@@ -29,9 +29,15 @@
 
 <p align="center">
 ──────────────────────── ✦ ────────────────────────
-</p>
 
-![snake](https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake-cyberpunk.svg)
+</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg">
+  <img alt="snake" src="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg">
+</picture>
 
 <p align="center">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━

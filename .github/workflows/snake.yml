@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # runs every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -10,22 +10,22 @@ on:
 
 jobs:
   generate:
+    name: Generate Snake SVG
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Generate GitHub Snake (Cyberpunk Theme)
+      - name: Generate snake (light & dark mode)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-cyberpunk.svg?color_snake=#00f5ff&color_dots=#0d1117,#1a0a2e,#2d1b69,#6b35d4,#9b59b6,#00f5ff&color_empty=#0a0a0f&color_bg=#050508
+            dist/github-contribution-grid-snake.svg?color_snake=#39ff14&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39&color_empty=#ebedf0&color_bg=#ffffff
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#39ff14&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353&color_empty=#161b22&color_bg=#0d1117
 
-      - name: Push to output branch
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
