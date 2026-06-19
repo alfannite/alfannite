@@ -35,7 +35,7 @@
   <img alt="snake" src="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg">
 </picture>
 
-<img src="https://raw.githubusercontent.com/alfannite/alfannite/main/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/alfannite/alfannite/img/svg/main/divider.svg" width="100%"/>
 
 <p align="center">
   <a href="https://github.com/alfannite">
