@@ -43,7 +43,7 @@
   <a href="https://github.com/alfannite">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://threads.net/@USERNAME_KAMU">
+  <a href="https://threads.net/@yeofanya">
     <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white"/>
   </a>
   <a href="https://instagram.com/alfan.niteops">
