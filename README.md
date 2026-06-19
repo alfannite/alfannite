@@ -35,11 +35,6 @@
   <img alt="snake" src="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg">
 </picture>
 
-
-<p align="center">
-─────────────────────────────── ✦ ───────────────────────────────
-</p>
-
 <p align="center">
   <a href="https://github.com/alfannite">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -54,3 +49,4 @@
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
 </p>
+
