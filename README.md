@@ -31,9 +31,7 @@
 ──────────────────────── ✦ ────────────────────────
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
+![snake](https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake-cyberpunk.svg)
 
 <p align="center">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -53,4 +51,3 @@
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
 </p>
-
