@@ -35,7 +35,9 @@
   <img alt="snake" src="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg">
 </picture>
 
-<p><img width="100%" height="1.5" style="background: linear-gradient(90deg, transparent, #6e6e6e, transparent); border: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></p>
+<p align="center">
+──────────────────────── ✦ ────────────────────────
+</p>
 
 <p align="center">
   <a href="https://github.com/alfannite">
