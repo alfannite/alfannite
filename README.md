@@ -18,13 +18,14 @@
   <img src="https://cdn.simpleicons.org/mikrotik" width="30"/>
   <img src="https://cdn.simpleicons.org/cisco" width="30"/>
   <img src="https://cdn.simpleicons.org/wireguard" width="30"/>
+  <img src="img/genieacs.png" width="30"/>
   <img src="https://cdn.simpleicons.org/pihole" width="30"/>
   <img src="https://cdn.simpleicons.org/grafana" width="30"/>
   <img src="https://cdn.simpleicons.org/prometheus" width="30"/>
   <img src="https://cdn.simpleicons.org/traefikproxy" width="30"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30"/> 
 </p>
 
 <picture>
