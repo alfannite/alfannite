@@ -28,6 +28,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30"/>
   <img src="https://cdn.simpleicons.org/redis" width="30"/>
   <img src="https://api.iconify.design/file-icons/nmap.svg" width="30"/>
+  <img src="https://cdn.simpleicons.org/homeassistant" width="30"/>
 </p>
 
 <picture>
