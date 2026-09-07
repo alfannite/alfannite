@@ -4,6 +4,8 @@
 
 <p align="center">
   <img src="img/bannergif.gif" alt="Aesthetic Oprek Wallpaper" width="100%" style="max-width: 750px; border-radius: 8px;" />
+  <br>
+  <img src="assets/hologram-frame.svg" alt="Korean Cyberpunk Hologram" width="100%" style="max-width: 750px; margin-top: -10px;" />
 </p>
 
 <p align="center" style="margin-top: 10px;">
