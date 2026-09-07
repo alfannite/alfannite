@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/hologram-frame.svg" alt="Aesthetic Oprek Wallpaper" width="100%" style="max-width: 750px; border-radius: 8px;" />
+  <img src="img/bannergif.gif" alt="Aesthetic Oprek Wallpaper" width="100%" style="max-width: 750px; border-radius: 8px;" />
 </p>
 
 <p align="center" style="margin-top: 10px;">
