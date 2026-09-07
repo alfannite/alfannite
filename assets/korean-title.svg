@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150">
+  <defs>
+    <!-- Tasteful, non-tacky neon glow filter -->
+    <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur1" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Style for the text -->
+    <style>
+      .neon-text {
+        font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+        font-weight: 800;
+        font-size: 56px;
+        fill: #FFFFFF;
+        stroke: #00E5FF;
+        stroke-width: 1.5px;
+        filter: url(#neon-glow);
+        text-anchor: middle;
+      }
+      .neon-sub {
+        font-family: monospace;
+        font-weight: 600;
+        font-size: 16px;
+        fill: #00E5FF;
+        letter-spacing: 8px;
+        text-anchor: middle;
+        opacity: 0.8;
+      }
+      
+      /* Subtle flicker animations for individual letters to mimic a neon sign turning on */
+      .flicker-1 { animation: flicker 4s infinite alternate; }
+      .flicker-2 { animation: flicker 5s infinite alternate-reverse; }
+      .flicker-3 { animation: flicker 3s infinite; }
+      
+      @keyframes flicker {
+        0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+        20%, 24%, 55% { opacity: 0.4; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background is transparent -->
+  <rect width="100%" height="100%" fill="none" />
+
+  <!-- Main Korean Greeting: "환영합니다" (Welcome) -->
+  <text x="400" y="85" class="neon-text">
+    <tspan class="flicker-1">환</tspan>
+    <tspan class="flicker-2">영</tspan>
+    <tspan class="flicker-3">합</tspan>
+    <tspan>니</tspan>
+    <tspan class="flicker-1">다</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="125" class="neon-sub">
+    F A N O P S _ S Y S T E M
+  </text>
+</svg>

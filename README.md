@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/banner-profile.png"/>
+  <img src="assets/korean-title.svg" alt="Korean Neon Title" width="100%" style="max-width: 800px;"/>
 </p>
 
 <p align="center">
