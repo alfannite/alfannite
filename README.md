@@ -45,21 +45,21 @@
 
 <p align="center">
   <a href="https://github.com/alfannite">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://threads.net/@yeofanya">
-    <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=threads&logoColor=white"/>
   </a>
   <a href="https://instagram.com/alfan.niteops">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
   <a href="https://t.me/fannite_ops">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
   <a href="https://www.twitch.tv/fannitee">
-    <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-9146FF?style=for-the-badge&logo=twitch&logoColor=white"/>
   </a>
   <a href="https://discord.gg/Fzzxa9Qbb9">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
   </a>
 </p>
