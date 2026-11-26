@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 120" width="960" height="120" role="img" aria-labelledby="ti de">
+  <title id="ti">fanops ping statistics</title>
+  <desc id="de">Animated green ECG heartbeat line with ping statistics: 1 packet transmitted, 1 received, 0% packet loss.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .ecg{animation:ecg 4s linear infinite}
+    .cur{animation:cur 1s steps(1) infinite}
+    @keyframes ecg{to{transform:translate(-240px,0)}}
+    @keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="fadeX" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".82" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m"><rect width="960" height="120" fill="url(#fadeX)"/></mask>
+  </defs>
+  <rect width="960" height="120" fill="#0b0b1f"/>
+  <path d="M0 45H960M0 20H960M0 70H960" stroke="#15143a"/>
+  <g mask="url(#m)">
+    <g class="ecg">
+      <path fill="none" stroke="#54d66a" stroke-width="2.5" stroke-linejoin="round" d="M0 45 h60 l8 -8 l8 8 h20 l6 14 l10 -50 l10 66 l8 -30 h30 l10 -10 l10 10 h60 h60 l8 -8 l8 8 h20 l6 14 l10 -50 l10 66 l8 -30 h30 l10 -10 l10 10 h60 h60 l8 -8 l8 8 h20 l6 14 l10 -50 l10 66 l8 -30 h30 l10 -10 l10 10 h60 h60 l8 -8 l8 8 h20 l6 14 l10 -50 l10 66 l8 -30 h30 l10 -10 l10 10 h60 h60 l8 -8 l8 8 h20 l6 14 l10 -50 l10 66 l8 -30 h30 l10 -10 l10 10 h60"/>
+    </g>
+  </g>
+  <text x="470" y="100" font-size="13" fill="#8e89b8" text-anchor="middle" textLength="600" lengthAdjust="spacing">--- fanops ping statistics ---  1 packet transmitted, 1 received, 0% packet loss</text>
+  <rect class="cur" x="778" y="89" width="8" height="14" fill="#54d66a"/>
+</svg>

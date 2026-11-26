@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 36" width="960" height="36" role="img" aria-labelledby="ti de">
+  <title id="ti">CONTRIBUTIONS / SNAKE_GAME.EXE</title>
+  <desc id="de">Retro OS window title bar for the GitHub contribution snake graph.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .dot{animation:pd 1.4s ease-in-out infinite}
+    @keyframes pd{0%,100%{opacity:1}50%{opacity:.2}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect x="1" y="1" width="958" height="34" fill="#3a3466" stroke="#cdb4d8" stroke-width="2"/>
+  <text x="16" y="23" font-size="16" fill="#ffe7a3">CONTRIBUTIONS / SNAKE_GAME.EXE</text>
+  <circle class="dot" cx="644" cy="18" r="4" fill="#54d66a"/>
+  <text x="656" y="22" font-size="12" fill="#cfc9ee" textLength="194" lengthAdjust="spacing">live, regenerates every 12h</text>
+  <g transform="translate(868 8)">
+    <rect width="24" height="20" fill="#8f80b8" stroke="#cdb4d8"/><path d="M7 14h10" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="30" width="24" height="20" fill="#8f80b8" stroke="#cdb4d8"/><rect x="38" y="5" width="8" height="9" fill="none" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="60" width="24" height="20" fill="#c26b8a" stroke="#cdb4d8"/><path d="M68 5l8 10M76 5l-8 10" stroke="#0f0f2b" stroke-width="2"/>
+  </g>
+</svg>

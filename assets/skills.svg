@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 500" width="960" height="500" role="img" aria-labelledby="ti de">
+  <title id="ti">SKILL_TREE.EXE - FanOps</title>
+  <desc id="de">A skill tree drawn as a network topology. Unlocked: Linux, Bash, Python, TCP/IP, Cisco IOS, Wireshark, Monitoring, Grafana. In training: Ansible, BGP, Docker. Locked: Kubernetes.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .trk{stroke:#2a2650;stroke-width:4;stroke-dasharray:6 3;fill:none}
+    .lv{stroke:currentColor;stroke-width:4;stroke-dasharray:6 3;fill:none}
+    .flow{fill:none;stroke-width:3;stroke-dasharray:6 8;animation:flow 1s linear infinite}
+    .off{fill:none;stroke:#3a3668;stroke-width:2;stroke-dasharray:3 7}
+    .pulse{animation:pulse 2.2s ease-in-out infinite}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+    .xp{transform-box:fill-box;transform-origin:left center;animation:xp 6s ease-in-out infinite}
+    .cur{animation:cur 1s steps(1) infinite}
+    .dot{animation:pulse 1.6s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-14}}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    @keyframes ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.7);opacity:0}}
+    @keyframes xp{0%{transform:scaleX(.5)}60%,100%{transform:scaleX(.72)}}
+    @keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.xp{transform:scaleX(.72)}}
+  </style>
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".25"/></pattern>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#17163a" stroke-width="1"/></pattern>
+    <!-- unlocked node frame -->
+    <g id="nu">
+      <rect x="-35" y="-35" width="70" height="70" fill="#12122f" stroke="currentColor" stroke-width="2"/>
+      <rect x="-30" y="-30" width="60" height="60" fill="none" stroke="currentColor" stroke-opacity=".25"/>
+      <path d="M-35 -26v-9h9M26 -35h9v9M35 26v9h-9M-26 35h-9v-9" fill="none" stroke="#ffe7a3" stroke-width="2"/>
+    </g>
+    <!-- locked node frame -->
+    <g id="nl">
+      <rect x="-35" y="-35" width="70" height="70" fill="#0e0e26" stroke="currentColor" stroke-width="2" stroke-dasharray="5 4"/>
+    </g>
+    <g id="lock">
+      <rect x="-9" y="-3" width="18" height="14" fill="currentColor"/>
+      <path d="M-5 -3v-5a5 5 0 0 1 10 0v5" fill="none" stroke="currentColor" stroke-width="2.5"/>
+      <rect x="-1.5" y="2" width="3" height="5" fill="#0e0e26"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="500" fill="#0b0b1f"/>
+  <rect x="1" y="1" width="958" height="498" fill="#0f0f2b" stroke="#cdb4d8" stroke-width="2"/>
+  <rect x="2" y="36" width="956" height="461" fill="url(#grid)"/>
+
+  <!-- title bar -->
+  <rect x="1" y="1" width="958" height="34" fill="#3a3466"/>
+  <text x="16" y="23" font-size="16" fill="#ffe7a3">SKILL_TREE.EXE</text>
+  <text x="760" y="23" font-size="13" fill="#8e89b8" text-anchor="end">8 / 12 unlocked</text>
+  <g transform="translate(868 8)">
+    <rect width="24" height="20" fill="#8f80b8" stroke="#cdb4d8"/><path d="M7 14h10" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="30" width="24" height="20" fill="#8f80b8" stroke="#cdb4d8"/><rect x="38" y="5" width="8" height="9" fill="none" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="60" width="24" height="20" fill="#c26b8a" stroke="#cdb4d8"/><path d="M68 5l8 10M76 5l-8 10" stroke="#0f0f2b" stroke-width="2"/>
+  </g>
+
+  <!-- branch captions -->
+  <text x="205" y="74" font-size="11" fill="#5de2e7">// AUTOMATION</text>
+  <text x="205" y="219" font-size="11" fill="#54d66a">// NETWORKING</text>
+  <text x="205" y="364" font-size="11" fill="#ff9a62">// OPS &amp; OBSERVABILITY</text>
+
+  <!-- root links -->
+  <path d="M114 265C160 265 160 120 205 120" fill="none" stroke="#26234d" stroke-width="5"/>
+  <path d="M114 265H205" fill="none" stroke="#26234d" stroke-width="5"/>
+  <path d="M114 265C160 265 160 410 205 410" fill="none" stroke="#26234d" stroke-width="5"/>
+  <path class="flow" stroke="#5de2e7" d="M114 265C160 265 160 120 205 120"/>
+  <path class="flow" stroke="#54d66a" d="M114 265H205"/>
+  <path class="flow" stroke="#ff9a62" d="M114 265C160 265 160 410 205 410"/>
+
+  <!-- row links -->
+  <path class="flow" stroke="#5de2e7" d="M275 120H365M435 120H525"/>
+  <path class="off" d="M595 120H685"/>
+  <path class="flow" stroke="#54d66a" d="M275 265H365M435 265H525"/>
+  <path class="off" d="M595 265H685"/>
+  <path class="flow" stroke="#ff9a62" d="M275 410H365"/>
+  <path class="off" d="M435 410H525M595 410H685"/>
+
+  <!-- root -->
+  <circle class="ring" cx="80" cy="265" r="34" fill="none" stroke="#ffe7a3" stroke-width="2"/>
+  <circle cx="80" cy="265" r="34" fill="#12122f" stroke="#ffe7a3" stroke-width="3"/>
+  <text x="80" y="262" font-size="14" font-weight="700" fill="#ffe7a3" text-anchor="middle">FAN</text>
+  <text x="80" y="279" font-size="14" font-weight="700" fill="#ffe7a3" text-anchor="middle">OPS</text>
+
+  <!-- ===== row A: automation ===== -->
+  <g transform="translate(240 120)" style="color:#5de2e7">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="22" font-weight="700" fill="currentColor" text-anchor="middle">Lx</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">Linux</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h33"/>
+  </g>
+  <g transform="translate(400 120)" style="color:#5de2e7">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="22" font-weight="700" fill="currentColor" text-anchor="middle">&gt;_</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">Bash</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h33"/>
+  </g>
+  <g transform="translate(560 120)" style="color:#5de2e7">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="22" font-weight="700" fill="currentColor" text-anchor="middle">Py</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">Python</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h24"/>
+  </g>
+  <g transform="translate(720 120)" style="color:#6a668f">
+    <g class="pulse"><use xlink:href="#nl"/></g>
+    <use xlink:href="#lock" transform="translate(0 -6)"/>
+    <text y="54" font-size="13" fill="#6a668f" text-anchor="middle">Ansible</text>
+    <text class="pulse" y="68" font-size="10" fill="#ff9a62" text-anchor="middle">TRAINING</text>
+  </g>
+
+  <!-- ===== row B: networking ===== -->
+  <g transform="translate(240 265)" style="color:#54d66a">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="22" font-weight="700" fill="currentColor" text-anchor="middle">IP</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">TCP/IP</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h33"/>
+  </g>
+  <g transform="translate(400 265)" style="color:#54d66a">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="20" font-weight="700" fill="currentColor" text-anchor="middle">IOS</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">Cisco IOS</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h24"/>
+  </g>
+  <g transform="translate(560 265)" style="color:#54d66a">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="20" font-weight="700" fill="currentColor" text-anchor="middle">pkt</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">Wireshark</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h24"/>
+  </g>
+  <g transform="translate(720 265)" style="color:#6a668f">
+    <g class="pulse" style="animation-delay:-.7s"><use xlink:href="#nl"/></g>
+    <use xlink:href="#lock" transform="translate(0 -6)"/>
+    <text y="54" font-size="13" fill="#6a668f" text-anchor="middle">BGP</text>
+    <text class="pulse" style="animation-delay:-.7s" y="68" font-size="10" fill="#ff9a62" text-anchor="middle">TRAINING</text>
+  </g>
+
+  <!-- ===== row C: ops & observability ===== -->
+  <g transform="translate(240 410)" style="color:#ff9a62">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="20" font-weight="700" fill="currentColor" text-anchor="middle">mon</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">Monitoring</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h15"/>
+  </g>
+  <g transform="translate(400 410)" style="color:#ff9a62">
+    <use xlink:href="#nu"/>
+    <text y="8" font-size="20" font-weight="700" fill="currentColor" text-anchor="middle">Grf</text>
+    <text y="54" font-size="13" fill="#cfc9ee" text-anchor="middle">Grafana</text>
+    <path class="trk" d="M-21 66h42"/><path class="lv" d="M-21 66h6"/>
+  </g>
+  <g transform="translate(560 410)" style="color:#6a668f">
+    <g class="pulse" style="animation-delay:-1.4s"><use xlink:href="#nl"/></g>
+    <use xlink:href="#lock" transform="translate(0 -6)"/>
+    <text y="54" font-size="13" fill="#6a668f" text-anchor="middle">Docker</text>
+    <text class="pulse" style="animation-delay:-1.4s" y="68" font-size="10" fill="#ff9a62" text-anchor="middle">TRAINING</text>
+  </g>
+  <g transform="translate(720 410)" style="color:#4a4772">
+    <use xlink:href="#nl"/>
+    <use xlink:href="#lock" transform="translate(0 -6)"/>
+    <text y="54" font-size="13" fill="#4a4772" text-anchor="middle">Kubernetes</text>
+    <text y="68" font-size="10" fill="#4a4772" text-anchor="middle">LOCKED</text>
+  </g>
+
+  <!-- player panel -->
+  <rect x="795" y="62" width="150" height="418" fill="#0b0b1f" stroke="#3a3466" stroke-width="2"/>
+  <text x="811" y="88" font-size="11" fill="#8e89b8">PLAYER</text>
+  <text x="811" y="116" font-size="22" font-weight="700" fill="#ffe7a3">FanOps</text>
+  <text x="811" y="142" font-size="16" fill="#5de2e7">LVL 08</text>
+  <rect x="811" y="156" width="118" height="8" fill="#1c1a3d" stroke="#2a2650"/>
+  <rect class="xp" x="811" y="156" width="118" height="8" fill="#54d66a"/>
+  <text x="811" y="182" font-size="10" fill="#8e89b8">XP to next unlock</text>
+
+  <text x="811" y="228" font-size="11" fill="#8e89b8">NEXT UNLOCK</text>
+  <text x="811" y="252" font-size="18" font-weight="700" fill="#ffe7a3">Ansible</text>
+  <rect class="cur" x="893" y="238" width="9" height="16" fill="#54d66a"/>
+
+  <g font-size="12">
+    <rect x="811" y="304" width="10" height="10" fill="#54d66a"/><text x="829" y="314" fill="#cfc9ee">unlocked  8</text>
+    <rect class="pulse" x="811" y="326" width="10" height="10" fill="none" stroke="#ff9a62" stroke-width="2"/><text x="829" y="336" fill="#cfc9ee">training  3</text>
+    <rect x="811" y="348" width="10" height="10" fill="none" stroke="#4a4772" stroke-width="2"/><text x="829" y="358" fill="#cfc9ee">locked    1</text>
+  </g>
+
+  <text x="811" y="440" font-size="10" fill="#6a668f">pips = skill level</text>
+  <path class="trk" d="M811 452h42"/><path class="lv" style="color:#5de2e7" d="M811 452h24"/>
+
+  <rect x="1" y="1" width="958" height="498" fill="url(#scan)" pointer-events="none"/>
+</svg>

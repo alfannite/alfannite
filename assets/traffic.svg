@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-labelledby="ti de">
+  <title id="ti">TRAFFIC_ANALYST.EXE</title>
+  <desc id="de">Animated network monitor: scrolling traffic graph, a small topology with packets travelling between nodes, rotating diagnostics and counters.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .sc1{animation:sc1 3.3s linear infinite}
+    .sc2{animation:sc2 2.1s linear infinite}
+    .fk{opacity:0;animation:fk 4s steps(1) infinite}
+    .fk8{opacity:0;animation:fk8 8s steps(1) infinite}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.2s ease-out infinite}
+    .util{transform-box:fill-box;transform-origin:left center;animation:util 5s ease-in-out infinite}
+    .dot{animation:pd 1.4s ease-in-out infinite}
+    @keyframes sc1{to{transform:translate(-110px,0)}}
+    @keyframes sc2{to{transform:translate(-90px,0)}}
+    @keyframes fk{0%{opacity:1}25%,100%{opacity:0}}
+    @keyframes fk8{0%{opacity:1}25%,100%{opacity:0}}
+    @keyframes ring{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.4);opacity:0}}
+    @keyframes util{0%,100%{transform:scaleX(.35)}35%{transform:scaleX(.82)}60%{transform:scaleX(.55)}}
+    @keyframes pd{0%,100%{opacity:1}50%{opacity:.25}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.fk,.fk8{opacity:0}.f1{opacity:1}.util{transform:scaleX(.65)}}
+  </style>
+  <defs>
+    <linearGradient id="gp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b6fc7" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#9b6fc7" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="gm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b78cff" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#b78cff" stop-opacity=".04"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="16" y="64" width="220" height="62"/></clipPath>
+    <clipPath id="c2"><rect x="250" y="198" width="214" height="62"/></clipPath>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".25"/></pattern>
+  </defs>
+
+  <rect width="480" height="300" fill="#0b0b1f"/>
+  <rect x="1" y="1" width="478" height="298" fill="#0f0f2b" stroke="#cdb4d8" stroke-width="2"/>
+
+  <!-- title bar -->
+  <rect x="1" y="1" width="478" height="29" fill="#3a3466"/>
+  <text x="14" y="21" font-size="14" fill="#ffe7a3">TRAFFIC_ANALYST.EXE</text>
+  <g transform="translate(398 6)">
+    <rect width="20" height="18" fill="#8f80b8" stroke="#cdb4d8"/><path d="M6 12h8" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="25" width="20" height="18" fill="#8f80b8" stroke="#cdb4d8"/><rect x="31" y="4" width="8" height="8" fill="none" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="50" width="20" height="18" fill="#c26b8a" stroke="#cdb4d8"/><path d="M56 4l8 9M64 4l-8 9" stroke="#0f0f2b" stroke-width="2"/>
+  </g>
+
+  <text x="16" y="54" font-size="11" fill="#5de2e7">NETWORK TRAFFIC MONITOR</text>
+  <text x="464" y="54" font-size="11" fill="#8e89b8" text-anchor="end">IP: 192.168.1.1</text>
+
+  <!-- chart 1 -->
+  <rect x="16" y="64" width="220" height="62" fill="#0b0b1f" stroke="#2a2650"/>
+  <path d="M16 79h220M16 94h220M16 109h220" stroke="#1c1a3d"/>
+  <g clip-path="url(#c1)">
+    <g transform="translate(16 64)">
+      <g class="sc1">
+        <path fill="url(#gp)" d="M0 40 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22 V62 H0 Z"/>
+        <path fill="none" stroke="#5de2e7" stroke-width="2" d="M0 40 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22 l14 -12 l14 6 l14 -22 l14 18 l14 -8 l14 16 l14 -20 l12 22"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- topology -->
+  <g stroke="#6f5f9a" stroke-width="1.5" fill="none">
+    <path d="M366 100L290 76M366 100L442 74M366 100L302 136M366 100L430 134M366 100L366 66M290 76L366 66M366 66L442 74M302 136L430 134"/>
+  </g>
+  <circle class="ring" cx="366" cy="100" r="8" fill="none" stroke="#b78cff" stroke-width="2"/>
+  <g fill="#8f6fc0">
+    <circle cx="290" cy="76" r="6"/><circle cx="442" cy="74" r="6"/><circle cx="302" cy="136" r="6"/><circle cx="430" cy="134" r="6"/><circle cx="366" cy="66" r="6"/>
+  </g>
+  <circle cx="366" cy="100" r="9" fill="#b78cff" stroke="#ffe7a3" stroke-width="2"/>
+  <circle r="3" fill="#ffe7a3"><animateMotion dur="1.6s" repeatCount="indefinite" path="M366 100L290 76"/></circle>
+  <circle r="3" fill="#5de2e7"><animateMotion dur="2.1s" begin="-.5s" repeatCount="indefinite" path="M442 74L366 100"/></circle>
+  <circle r="3" fill="#54d66a"><animateMotion dur="1.9s" begin="-1s" repeatCount="indefinite" path="M366 100L302 136"/></circle>
+  <circle r="3" fill="#ff9a62"><animateMotion dur="2.4s" begin="-.2s" repeatCount="indefinite" path="M366 100L430 134"/></circle>
+  <circle r="3" fill="#ffe7a3"><animateMotion dur="1.4s" begin="-.9s" repeatCount="indefinite" path="M366 66L366 100"/></circle>
+  <circle r="3" fill="#5de2e7"><animateMotion dur="2.6s" begin="-1.3s" repeatCount="indefinite" path="M302 136L430 134"/></circle>
+  <circle r="3" fill="#b78cff"><animateMotion dur="2.2s" begin="-.4s" repeatCount="indefinite" path="M290 76L366 66"/></circle>
+
+  <!-- diagnostics (rotating) -->
+  <text x="16" y="152" font-size="12" fill="#54d66a">DIAGNOSTICS:</text>
+  <g font-size="12" fill="#cfc9ee">
+    <text class="fk8 f1" x="112" y="152">// scanning...</text>
+    <text class="fk8" style="animation-delay:-6s" x="112" y="152">// tracing route...</text>
+    <text class="fk8" style="animation-delay:-4s" x="112" y="152">// checking ports...</text>
+    <text class="fk8" style="animation-delay:-2s" x="112" y="152">// all clear</text>
+  </g>
+  <circle class="dot" cx="21" cy="171" r="4" fill="#54d66a"/>
+  <text x="32" y="175" font-size="12" fill="#54d66a">PACKETS: ACTIVE</text>
+
+  <!-- counters (rotating) -->
+  <g font-size="13" fill="#cfc9ee">
+    <text class="fk f1" x="16" y="204">ping -c 94</text>
+    <text class="fk" style="animation-delay:-3s" x="16" y="204">ping -c 95</text>
+    <text class="fk" style="animation-delay:-2s" x="16" y="204">ping -c 96</text>
+    <text class="fk" style="animation-delay:-1s" x="16" y="204">ping -c 97</text>
+
+    <text class="fk f1" x="16" y="222">packets sent: 162</text>
+    <text class="fk" style="animation-delay:-3s" x="16" y="222">packets sent: 163</text>
+    <text class="fk" style="animation-delay:-2s" x="16" y="222">packets sent: 165</text>
+    <text class="fk" style="animation-delay:-1s" x="16" y="222">packets sent: 166</text>
+
+    <text class="fk f1" x="16" y="240">throughput: 10.29ms</text>
+    <text class="fk" style="animation-delay:-3s" x="16" y="240">throughput: 9.87ms</text>
+    <text class="fk" style="animation-delay:-2s" x="16" y="240">throughput: 11.02ms</text>
+    <text class="fk" style="animation-delay:-1s" x="16" y="240">throughput: 10.41ms</text>
+  </g>
+  <text x="16" y="266" font-size="10" fill="#8e89b8">LINK UTIL</text>
+  <rect x="76" y="258" width="150" height="8" fill="#1c1a3d" stroke="#2a2650"/>
+  <rect class="util" x="76" y="258" width="150" height="8" fill="#54d66a"/>
+
+  <!-- chart 2 -->
+  <text x="250" y="190" font-size="10" fill="#b78cff">BANDWIDTH</text>
+  <text x="464" y="190" font-size="10" fill="#5de2e7" text-anchor="end">PORT: UP</text>
+  <rect x="250" y="198" width="214" height="62" fill="#0b0b1f" stroke="#2a2650"/>
+  <path d="M250 213h214M250 229h214M250 244h214" stroke="#1c1a3d"/>
+  <g clip-path="url(#c2)">
+    <g transform="translate(250 198)">
+      <g class="sc2">
+        <path fill="url(#gm)" d="M0 36 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4 V62 H0 Z"/>
+        <path fill="none" stroke="#b78cff" stroke-width="1.5" d="M0 36 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4 l6 -6 l6 10 l6 -28 l6 24 l6 -10 l6 14 l6 -20 l6 16 l6 -4 l6 8 l30 -4"/>
+      </g>
+    </g>
+  </g>
+  <text x="464" y="276" font-size="9" fill="#8e89b8" text-anchor="end">SERVER THROUGHPUT</text>
+
+  <rect x="1" y="1" width="478" height="298" fill="url(#scan)" pointer-events="none"/>
+</svg>

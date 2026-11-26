@@ -1,67 +1,93 @@
-<p align="center">
-  <img src="assets/korean-title.svg" alt="Korean Neon Title" width="100%" style="max-width: 800px;"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="img/bannergif.gif" alt="Aesthetic Oprek Wallpaper" width="100%" style="max-width: 750px; border-radius: 8px;" />
-  <br>
-  <img src="assets/hologram-frame.svg" alt="Korean Cyberpunk Hologram" width="100%" style="max-width: 750px; margin-top: -10px;" />
-</p>
+<img src="assets/banner.svg" alt="FanOps: Network Analyst and Sysadmin" width="100%">
 
-<p align="center" style="margin-top: 10px;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=2000&color=FF007F&center=true&vCenter=true&width=800&lines=%E2%98%85%20NOC%20%7C%20%EA%B8%B0%EC%88%A0%20%EB%A7%A4%EB%8B%88%EC%95%84%20%7C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%E2%98%85;fanops%40macbook-pro%20~%20%25%20%EA%B8%B0%EB%8F%84%EB%A5%BC%20%EC%9E%A6%EC%A7%80%20%EB%A7%88%EC%84%B8%EC%9A%94...;fanops%40macbook-pro%20~%20%25%20200%20%5B%EC%A0%95%EC%83%81%5D;fanops%40macbook-pro%20~%20%25%20%ED%95%AD%EC%83%81%20%EA%B0%90%EC%82%AC%ED%95%98%EB%A9%B0..." alt="Typing SVG" />
-</p>
+<br>
 
-<p align="center">
-  <img src="https://cdn.simpleicons.org/proxmox" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="30"/>
-  <img src="https://cdn.simpleicons.org/gnubash" width="30"/>
-  <img src="https://cdn.simpleicons.org/nginx" width="30"/>
-  <img src="https://cdn.simpleicons.org/mikrotik" width="30"/>
-  <img src="https://cdn.simpleicons.org/cisco" width="30"/>
-  <img src="https://cdn.simpleicons.org/wireguard" width="30"/>
-  <img src="img/genieacs.png" width="30"/>
-  <img src="https://cdn.simpleicons.org/pihole" width="30"/>
-  <img src="https://cdn.simpleicons.org/grafana" width="30"/>
-  <img src="https://cdn.simpleicons.org/prometheus" width="30"/>
-  <img src="https://cdn.simpleicons.org/traefikproxy" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30"/>
-  <img src="https://cdn.simpleicons.org/redis" width="30"/>
-  <img src="https://api.iconify.design/file-icons/nmap.svg" width="30"/>
-  <img src="https://cdn.simpleicons.org/homeassistant" width="30"/>
-</p>
+<sub><a href="#about">about</a> &nbsp;/&nbsp; <a href="#skill-tree">skill tree</a> &nbsp;/&nbsp; <a href="#traffic">traffic</a> &nbsp;/&nbsp; <a href="#snake">snake</a> &nbsp;/&nbsp; <a href="#contact">contact</a></sub>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg">
-  <img alt="snake" src="https://raw.githubusercontent.com/alfannite/alfannite/output/github-contribution-grid-snake.svg">
-</picture>
+</div>
 
-<p align="center">
-──시작────하루────착한────안심── ✦ ──한빛────록루────착한────빛심──
-</p>
+<br>
 
+## about
 
-<p align="center">
-  <a href="https://github.com/alfannite">
-    <img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://threads.net/@yeofanya">
-    <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=threads&logoColor=white"/>
-  </a>
-  <a href="https://instagram.com/alfan.niteops">
-    <img src="https://img.shields.io/badge/-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-  <a href="https://t.me/fannite_ops">
-    <img src="https://img.shields.io/badge/-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
-  </a>
-  <a href="https://www.twitch.tv/fannitee">
-    <img src="https://img.shields.io/badge/-9146FF?style=for-the-badge&logo=twitch&logoColor=white"/>
-  </a>
-  <a href="https://discord.gg/Fzzxa9Qbb9">
-    <img src="https://img.shields.io/badge/-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
-  </a>
-</p>
+<div align="center">
+<img src="assets/terminal.svg" alt="terminal: whoami, uptime, cat motto.txt" width="100%">
+</div>
+
+<br>
+
+Network analyst & sysadmin. Kerjaan utamanya: bikin jaringan tetap hidup, cari tahu kenapa dia mati, lalu bikin script biar nggak mati dengan cara yang sama dua kali.
+
+```text
+role      Network Analyst & Sysadmin
+daily     Linux · Bash · Python · Cisco · Wireshark
+habit     baca packet capture sebelum nyalahin siapa pun
+status    ONLINE
+```
+
+<br>
+
+## skill tree
+
+Skill saya gambar sebagai topologi jaringan. Node yang menyala sudah *unlocked*, yang berkedip lagi *training*, yang gelap belum disentuh. Pip di bawah node = level.
+
+<div align="center">
+<img src="assets/skills.svg" alt="Skill tree: Linux, Bash, Python, TCP/IP, Cisco IOS, Wireshark, Monitoring and Grafana unlocked; Ansible, BGP and Docker in training; Kubernetes locked" width="100%">
+</div>
+
+<details>
+<summary>versi teks (kalau gambar nggak kebuka)</summary>
+
+<br>
+
+| branch | unlocked | training | locked |
+| --- | --- | --- | --- |
+| automation | Linux, Bash, Python | Ansible | |
+| networking | TCP/IP, Cisco IOS, Wireshark | BGP | |
+| ops & observability | Monitoring, Grafana | Docker | Kubernetes |
+
+</details>
+
+<br>
+
+## traffic
+
+<div align="center">
+<img src="assets/traffic.svg" alt="TRAFFIC_ANALYST.EXE: animated network monitor" width="62%">
+</div>
+
+<br>
+
+```text
+$ fanops --now
+learning   Ansible          # next unlock
+building   script monitoring buat homelab
+reading    RFC, dan log yang nggak ada yang mau baca
+```
+
+<br>
+
+## snake
+
+<div align="center">
+<img src="assets/snake-bar.svg" alt="CONTRIBUTIONS / SNAKE_GAME.EXE" width="100%">
+<br>
+<img src="https://raw.githubusercontent.com/alfannite/alfannite/output/snake.svg" alt="Snake yang makan grafik kontribusi GitHub" width="100%">
+</div>
+
+<br>
+
+## contact
+
+```text
+github    https://github.com/alfannite
+email     you@example.com
+```
+
+<br>
+
+<div align="center">
+<img src="assets/footer.svg" alt="fanops ping statistics: 1 packet transmitted, 1 received, 0% packet loss" width="100%">
+</div>

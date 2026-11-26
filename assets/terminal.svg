@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-labelledby="ti de">
+  <title id="ti">fanops terminal</title>
+  <desc id="de">A terminal that types whoami, uptime and cat motto.txt on a loop.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:18px;white-space:pre}
+    .fd{animation:fade 16s linear infinite}
+    .c1{animation:t1 16s steps(20) infinite}
+    .c2{animation:t2 16s steps(20) infinite}
+    .c3{animation:t3 16s steps(27) infinite}
+    .k1{animation:cu1 16s steps(1) infinite}
+    .k2{animation:cu2 16s steps(1) infinite}
+    .k3{animation:cu3 16s steps(1) infinite}
+    .o1{opacity:0;animation:o1 16s steps(1) infinite}
+    .o2{opacity:0;animation:o2 16s steps(1) infinite}
+    .o3{opacity:0;animation:o3 16s steps(1) infinite}
+    .p4{opacity:0;animation:p4 16s steps(1) infinite}
+    .cur{animation:cur .9s steps(1) infinite}
+    .dot{animation:pd 1.6s ease-in-out infinite}
+    @keyframes t1{0%,3%{transform:translateX(0)}10%,100%{transform:translateX(216px)}}
+    @keyframes t2{0%,14%{transform:translateX(0)}21%,100%{transform:translateX(216px)}}
+    @keyframes t3{0%,26%{transform:translateX(0)}37%,100%{transform:translateX(292px)}}
+    @keyframes cu1{0%,2.9%{opacity:0}3%,10%{opacity:1}10.1%,100%{opacity:0}}
+    @keyframes cu2{0%,13.9%{opacity:0}14%,21%{opacity:1}21.1%,100%{opacity:0}}
+    @keyframes cu3{0%,25.9%{opacity:0}26%,37%{opacity:1}37.1%,100%{opacity:0}}
+    @keyframes o1{0%,11%{opacity:0}12%,100%{opacity:1}}
+    @keyframes o2{0%,22%{opacity:0}23%,100%{opacity:1}}
+    @keyframes o3{0%,38%{opacity:0}39%,100%{opacity:1}}
+    @keyframes p4{0%,44%{opacity:0}45%,100%{opacity:1}}
+    @keyframes fade{0%,93%{opacity:1}97%,100%{opacity:0}}
+    @keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @keyframes pd{0%,100%{opacity:1}50%{opacity:.25}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.o1,.o2,.o3,.p4{opacity:1}.k1,.k2,.k3{opacity:0}.c1,.c2,.c3{transform:translateX(900px)}}
+  </style>
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".25"/></pattern>
+    <clipPath id="body"><rect x="2" y="36" width="896" height="242"/></clipPath>
+  </defs>
+
+  <rect width="900" height="280" fill="#0b0b1f"/>
+  <rect x="1" y="1" width="898" height="278" fill="#0b0b1f" stroke="#cdb4d8" stroke-width="2"/>
+
+  <!-- title bar -->
+  <rect x="1" y="1" width="898" height="34" fill="#3a3466"/>
+  <text x="16" y="23" style="font-size:15px" fill="#ffe7a3">TERMINAL</text>
+  <text x="792" y="22" style="font-size:13px" fill="#8e89b8" text-anchor="end">fanops@net: ~</text>
+  <g transform="translate(808 8)">
+    <rect width="24" height="20" fill="#8f80b8" stroke="#cdb4d8"/><path d="M7 14h10" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="30" width="24" height="20" fill="#8f80b8" stroke="#cdb4d8"/><rect x="38" y="5" width="8" height="9" fill="none" stroke="#0f0f2b" stroke-width="2"/>
+    <rect x="60" width="24" height="20" fill="#c26b8a" stroke="#cdb4d8"/><path d="M68 5l8 10M76 5l-8 10" stroke="#0f0f2b" stroke-width="2"/>
+  </g>
+
+  <g clip-path="url(#body)">
+    <g class="fd">
+      <!-- line 1 -->
+      <text x="30" y="72" textLength="216" lengthAdjust="spacing"><tspan fill="#54d66a">fanops@net</tspan><tspan fill="#8e89b8">:~$ </tspan><tspan fill="#cfc9ee">whoami</tspan></text>
+      <g class="c1"><rect x="30" y="54" width="560" height="26" fill="#0b0b1f"/><rect class="k1" x="30" y="56" width="10" height="21" fill="#54d66a"/></g>
+      <text class="o1" x="30" y="98" fill="#ffe7a3">fanops  --  network analyst &amp; sysadmin</text>
+
+      <!-- line 2 -->
+      <text x="30" y="134" textLength="216" lengthAdjust="spacing"><tspan fill="#54d66a">fanops@net</tspan><tspan fill="#8e89b8">:~$ </tspan><tspan fill="#cfc9ee">uptime</tspan></text>
+      <g class="c2"><rect x="30" y="116" width="560" height="26" fill="#0b0b1f"/><rect class="k2" x="30" y="118" width="10" height="21" fill="#54d66a"/></g>
+      <text class="o2" x="30" y="160" fill="#5de2e7">up since forever, 1 user, load average: 0.42, 0.37, 0.31</text>
+
+      <!-- line 3 -->
+      <text x="30" y="196" textLength="292" lengthAdjust="spacing"><tspan fill="#54d66a">fanops@net</tspan><tspan fill="#8e89b8">:~$ </tspan><tspan fill="#cfc9ee">cat motto.txt</tspan></text>
+      <g class="c3"><rect x="30" y="178" width="560" height="26" fill="#0b0b1f"/><rect class="k3" x="30" y="180" width="10" height="21" fill="#54d66a"/></g>
+      <text class="o3" x="30" y="222" fill="#ff9a62">if it's not DNS, it's the firewall. if it's not the firewall, it's DNS.</text>
+
+      <!-- line 4: idle prompt -->
+      <g class="p4">
+        <text x="30" y="260" textLength="140" lengthAdjust="spacing"><tspan fill="#54d66a">fanops@net</tspan><tspan fill="#8e89b8">:~$</tspan></text>
+        <rect class="cur" x="181" y="243" width="10" height="21" fill="#54d66a"/>
+      </g>
+    </g>
+  </g>
+
+  <circle class="dot" cx="868" cy="254" r="5" fill="#54d66a"/>
+  <text x="854" y="259" style="font-size:12px" fill="#8e89b8" text-anchor="end">ssh: connected</text>
+
+  <rect x="1" y="1" width="898" height="278" fill="url(#scan)" pointer-events="none"/>
+</svg>
